@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <!-- <Boxes/> -->
+    <Boxes/>
+    <br>
     <PianoRoll/>
   </div>
 </template>
 
 <script>
-// import Boxes from './components/Boxes.vue'
+import Boxes from './components/Boxes.vue'
 import PianoRoll from './components/PianoRoll.vue'
 
 export default {
   name: 'App',
   components: {
-    // Boxes,
+    Boxes,
     PianoRoll
   }
 }
