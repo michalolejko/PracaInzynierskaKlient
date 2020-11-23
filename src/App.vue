@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <Boxes/>
-    <br>
     <PianoRoll/>
   </div>
 </template>
